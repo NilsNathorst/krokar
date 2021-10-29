@@ -2,9 +2,14 @@
   "name": "krokar",
   "version": "1.0.2",
   "description": "a collection of useful react hooks",
-  "main": "dist/index.js",
+  "main": "index.js",
+  "module": "esm/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-types": "tsc --project ./tsconfig.types.json",
+    "build-cjs": "tsc --project ./tsconfig.cjs.json",
+    "build-esm": "tsc --project ./tsconfig.esm.json",
+    "build": "npx del-cli dist && npm run build-cjs && npm run build-esm && npm run build-types && echo 'Successfully built'"
   },
   "repository": {
     "type": "git",
