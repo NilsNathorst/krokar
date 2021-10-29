@@ -1,6 +1,6 @@
 {
   "name": "krokar",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "a collection of useful react hooks",
   "main": "index.js",
   "module": "esm/index.js",
