@@ -1,0 +1,34 @@
+{
+  "name": "krokar",
+  "version": "1.0.0",
+  "description": "a collection of useful react hooks",
+  "main": "dist/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilsNathorst/krokar.git"
+  },
+  "types": "index.d.ts",
+  "prepublish": "tsc",
+  "keywords": [
+    "react",
+    "hook",
+    "react-hooks",
+    "custom-hooks"
+  ],
+  "author": "Nils Nathorst-Windahl Victor Ek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NilsNathorst/krokar/issues"
+  },
+  "homepage": "https://github.com/NilsNathorst/krokar#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33"
+  }
+}
