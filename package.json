@@ -1,6 +1,6 @@
 {
   "name": "krokar",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "a collection of useful react hooks",
   "main": "index.js",
   "module": "esm/index.js",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/NilsNathorst/krokar.git"
   },
   "types": "index.d.ts",
-  "prepublish": "tsc",
+  "prepublish": "npm run build",
   "keywords": [
     "react",
     "hook",
