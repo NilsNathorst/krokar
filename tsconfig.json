@@ -1,7 +1,7 @@
 {
   "include": ["./src/**/*.ts"],
   "compilerOptions": {
-    "lib": ["es6"],
+    "lib": ["es6", "dom"],
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "target": "es5",
